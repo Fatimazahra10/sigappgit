@@ -3,30 +3,30 @@ name: Build and Deploy SIG App
 on:
   push:
     branches:
-      - main   # Déclenche quand tu push sur main
+      - main
 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
 
     steps:
-      # 1. Récupérer ton code
+      # 1. Checkout du code
       - name: Checkout code
         uses: actions/checkout@v3
 
-      # 2. Construire l'image Docker
-      - name: Build Docker image
-        run: docker build -t ${{ secrets.DOCKER_USERNAME }}/sigapp:latest .
-
-      # 3. Se connecter à Docker Hub
+      # 2. Login Docker Hub
       - name: Login to Docker Hub
         run: echo "${{ secrets.DOCKER_PASSWORD }}" | docker login -u "${{ secrets.DOCKER_USERNAME }}" --password-stdin
 
-      # 4. Pousser l'image sur Docker Hub
+      # 3. Build Docker image
+      - name: Build Docker image
+        run: docker build -t ${{ secrets.DOCKER_USERNAME }}/sigapp:latest .
+
+      # 4. Push Docker image
       - name: Push Docker image
         run: docker push ${{ secrets.DOCKER_USERNAME }}/sigapp:latest
 
-      # 5. Déployer sur la VM Azure via SSH
+      # 5. Déploiement sur VM Azure
       - name: Deploy on Azure VM
         uses: appleboy/ssh-action@v0.1.10
         with:
