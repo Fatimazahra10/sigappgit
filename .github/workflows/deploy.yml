@@ -1,45 +1,40 @@
-name: CI/CD ASP.NET Core SIG
+name: Build and Deploy SIG App
 
 on:
   push:
     branches:
-      - main   # se déclenche sur les push vers main
+      - main   # Déclenche quand tu push sur main
 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
 
     steps:
-    # 1️⃣ Checkout du code
-    - name: Checkout repository
-      uses: actions/checkout@v3
+      # 1. Récupérer ton code
+      - name: Checkout code
+        uses: actions/checkout@v3
 
-    # 2️⃣ Installer Docker Buildx
-    - name: Set up Docker Buildx
-      uses: docker/setup-buildx-action@v2
+      # 2. Construire l'image Docker
+      - name: Build Docker image
+        run: docker build -t ${{ secrets.DOCKER_USERNAME }}/sigapp:latest .
 
-    # 3️⃣ Connexion à Docker Hub
-    - name: Log in to Docker Hub
-      uses: docker/login-action@v2
-      with:
-        username: fatimazahra2024        # ton username Docker Hub
-        password: ${{ secrets.SIGAPPSECRET }}  # ton token stocké dans SIGAPPSECRET
+      # 3. Se connecter à Docker Hub
+      - name: Login to Docker Hub
+        run: echo "${{ secrets.DOCKER_PASSWORD }}" | docker login -u "${{ secrets.DOCKER_USERNAME }}" --password-stdin
 
-    # 4️⃣ Build et push de l'image Docker
-    - name: Build and push Docker image
-      run: |
-        docker build -t fatimazahra2024/sigappgit:latest .
-        docker push fatimazahra2024/sigappgit:latest
+      # 4. Pousser l'image sur Docker Hub
+      - name: Push Docker image
+        run: docker push ${{ secrets.DOCKER_USERNAME }}/sigapp:latest
 
-    # 5️⃣ Déploiement sur la VM Azure via SSH
-    - name: Deploy to Azure VM
-      uses: appleboy/ssh-action@v0.1.7
-      with:
-        host: ${{ secrets.AZURE_VM_IP }}
-        username: ${{ secrets.AZURE_VM_USER }}
-        key: ${{ secrets.AZURE_VM_SSH_KEY }}
-        script: |
-          docker pull fatimazahra2024/sigappgit:latest
-          docker stop sigapp || true
-          docker rm sigapp || true
-          docker run -d -p 80:80 --name sigapp fatimazahra2024/sigappgit:latest
+      # 5. Déployer sur la VM Azure via SSH
+      - name: Deploy on Azure VM
+        uses: appleboy/ssh-action@v0.1.10
+        with:
+          host: ${{ secrets.AZURE_VM_IP }}
+          username: ${{ secrets.AZURE_VM_USER }}
+          key: ${{ secrets.AZURE_VM_SSH_KEY }}
+          script: |
+            docker pull ${{ secrets.DOCKER_USERNAME }}/sigapp:latest
+            docker stop sigapp || true
+            docker rm sigapp || true
+            docker run -d -p 80:80 --name sigapp ${{ secrets.DOCKER_USERNAME }}/sigapp:latest
