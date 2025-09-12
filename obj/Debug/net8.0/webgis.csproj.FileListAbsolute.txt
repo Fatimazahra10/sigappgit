@@ -257,3 +257,4 @@ D:\EMC2\Projet\webgis\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.E
 D:\EMC2\Projet\webgis\obj\Debug\net8.0\webgis.csproj.AssemblyReference.cache
 D:\EMC2\Projet\webgis\obj\Debug\net8.0\EFCoreNpgsqlNetTopologySuite.cs
 D:\EMC2\Projet\webgis\obj\Debug\net8.0\webgis.csproj.Up2Date
+D:\EMC2\Projet\webgis\obj\Debug\net8.0\webgis.sourcelink.json

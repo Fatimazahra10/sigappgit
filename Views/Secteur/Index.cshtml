@@ -8,7 +8,7 @@
 require (["esri/config", "esri/Map", "esri/views/MapView", "esri/layers/FeatureLayer", "esri/layers/WMSLayer"],
 function(esriConfig, Map, MapView, FeatureLayer, WMSLayer){
 esriConfig.apiKey="";
-const wmsUrl="http://127.0.0.1/qgisserver/cgi-bin/qgis_mapserv.fcgi?MAP=/home/azureuser/qgis/data/AinChock.qgs&SERVICE=WMS&VERSION=1.3.0&REQUEST=GetCapabilities";
+const wmsUrl="http://172.171.244.99/qgisserver/cgi-bin/qgis_mapserv.fcgi?MAP=/home/azureuser/qgis/data/AinChock.qgs&SERVICE=WMS&VERSION=1.3.0&REQUEST=GetCapabilities";
 const wmsLayer = new WMSLayer({
 url: wmsUrl,
 sublayers: [ 
