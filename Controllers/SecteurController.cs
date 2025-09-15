@@ -13,18 +13,22 @@ using NetTopologySuite.IO;
 
 namespace webgis.Controllers
 {
-    [Route("[controller]")]
+ 
     public class SecteurController : Controller
     {
         private readonly AppDbContext _context;
-    public SecteurController(AppDbContext context)
+        public SecteurController(AppDbContext context)
+        {
+            _context = context;
+        }
+        // GET: Commune
+        public IActionResult Index()
+        {
+            return View(_context.Secteurs.ToList());
+        }
+    public IActionResult test()
     {
-    _context = context;
-    }
-    // GET: Commune
-    public IActionResult Index()
-    {
-    return View( _context.Secteurs.ToList());
+    return View( );
     }
        
 

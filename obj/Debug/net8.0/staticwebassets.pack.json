@@ -5,116 +5,448 @@
       "PackagePath": "staticwebassets\\webgis.bundle.scp.css"
     },
     {
-      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\assets\\favicon.ico",
-      "PackagePath": "staticwebassets\\assets\\favicon.ico"
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\contactform\\Readme.txt",
+      "PackagePath": "staticwebassets\\contactform\\Readme.txt"
     },
     {
-      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\assets\\img\\about\\1.jpg",
-      "PackagePath": "staticwebassets\\assets\\img\\about\\1.jpg"
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\contactform\\contactform.php",
+      "PackagePath": "staticwebassets\\contactform\\contactform.php"
     },
     {
-      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\assets\\img\\about\\2.jpg",
-      "PackagePath": "staticwebassets\\assets\\img\\about\\2.jpg"
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\css\\bbpress.css",
+      "PackagePath": "staticwebassets\\css\\bbpress.css"
     },
     {
-      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\assets\\img\\about\\3.jpg",
-      "PackagePath": "staticwebassets\\assets\\img\\about\\3.jpg"
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\css\\colors\\asphalt.css",
+      "PackagePath": "staticwebassets\\css\\colors\\asphalt.css"
     },
     {
-      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\assets\\img\\about\\4.jpg",
-      "PackagePath": "staticwebassets\\assets\\img\\about\\4.jpg"
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\css\\colors\\blue.css",
+      "PackagePath": "staticwebassets\\css\\colors\\blue.css"
     },
     {
-      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\assets\\img\\close-icon.svg",
-      "PackagePath": "staticwebassets\\assets\\img\\close-icon.svg"
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\css\\colors\\brown.css",
+      "PackagePath": "staticwebassets\\css\\colors\\brown.css"
     },
     {
-      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\assets\\img\\header-bg.jpg",
-      "PackagePath": "staticwebassets\\assets\\img\\header-bg.jpg"
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\css\\colors\\mustard.css",
+      "PackagePath": "staticwebassets\\css\\colors\\mustard.css"
     },
     {
-      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\assets\\img\\logos\\facebook.svg",
-      "PackagePath": "staticwebassets\\assets\\img\\logos\\facebook.svg"
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\css\\colors\\pomegranate.css",
+      "PackagePath": "staticwebassets\\css\\colors\\pomegranate.css"
     },
     {
-      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\assets\\img\\logos\\google.svg",
-      "PackagePath": "staticwebassets\\assets\\img\\logos\\google.svg"
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\css\\colors\\turquoise.css",
+      "PackagePath": "staticwebassets\\css\\colors\\turquoise.css"
     },
     {
-      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\assets\\img\\logos\\ibm.svg",
-      "PackagePath": "staticwebassets\\assets\\img\\logos\\ibm.svg"
-    },
-    {
-      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\assets\\img\\logos\\microsoft.svg",
-      "PackagePath": "staticwebassets\\assets\\img\\logos\\microsoft.svg"
-    },
-    {
-      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\assets\\img\\map-image.png",
-      "PackagePath": "staticwebassets\\assets\\img\\map-image.png"
-    },
-    {
-      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\assets\\img\\navbar-logo.svg",
-      "PackagePath": "staticwebassets\\assets\\img\\navbar-logo.svg"
-    },
-    {
-      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\assets\\img\\portfolio\\1.jpg",
-      "PackagePath": "staticwebassets\\assets\\img\\portfolio\\1.jpg"
-    },
-    {
-      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\assets\\img\\portfolio\\2.jpg",
-      "PackagePath": "staticwebassets\\assets\\img\\portfolio\\2.jpg"
-    },
-    {
-      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\assets\\img\\portfolio\\3.jpg",
-      "PackagePath": "staticwebassets\\assets\\img\\portfolio\\3.jpg"
-    },
-    {
-      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\assets\\img\\portfolio\\4.jpg",
-      "PackagePath": "staticwebassets\\assets\\img\\portfolio\\4.jpg"
-    },
-    {
-      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\assets\\img\\portfolio\\5.jpg",
-      "PackagePath": "staticwebassets\\assets\\img\\portfolio\\5.jpg"
-    },
-    {
-      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\assets\\img\\portfolio\\6.jpg",
-      "PackagePath": "staticwebassets\\assets\\img\\portfolio\\6.jpg"
-    },
-    {
-      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\assets\\img\\team\\1.jpg",
-      "PackagePath": "staticwebassets\\assets\\img\\team\\1.jpg"
-    },
-    {
-      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\assets\\img\\team\\2.jpg",
-      "PackagePath": "staticwebassets\\assets\\img\\team\\2.jpg"
-    },
-    {
-      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\assets\\img\\team\\3.jpg",
-      "PackagePath": "staticwebassets\\assets\\img\\team\\3.jpg"
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\css\\colors\\yellow.css",
+      "PackagePath": "staticwebassets\\css\\colors\\yellow.css"
     },
     {
       "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\css\\styles.css",
-      "PackagePath": "staticwebassets\\css\\styles.css"
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
     },
     {
       "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\js\\scripts.js",
-      "PackagePath": "staticwebassets\\js\\scripts.js"
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\fonts\\fontawesome-webfont-.eot",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont-.eot"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\fonts\\fontawesome-webfont-v=4.0.3.eot",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont-v=4.0.3.eot"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\fonts\\fontawesome-webfont-v=4.0.3.svg",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont-v=4.0.3.svg"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\fonts\\fontawesome-webfont-v=4.0.3.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont-v=4.0.3.ttf"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\fonts\\fontawesome-webfont-v=4.0.3.woff",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont-v=4.0.3.woff"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\fonts\\glyphicons-halflings-regular.eot",
+      "PackagePath": "staticwebassets\\fonts\\glyphicons-halflings-regular.eot"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\fonts\\glyphicons-halflings-regular.svg",
+      "PackagePath": "staticwebassets\\fonts\\glyphicons-halflings-regular.svg"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\fonts\\glyphicons-halflings-regular.ttf",
+      "PackagePath": "staticwebassets\\fonts\\glyphicons-halflings-regular.ttf"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\fonts\\glyphicons-halflings-regular.woff",
+      "PackagePath": "staticwebassets\\fonts\\glyphicons-halflings-regular.woff"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\img\\404.png",
+      "PackagePath": "staticwebassets\\img\\404.png"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\img\\AjaxLoader.gif",
+      "PackagePath": "staticwebassets\\img\\AjaxLoader.gif"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\img\\apple-touch-icon.png",
+      "PackagePath": "staticwebassets\\img\\apple-touch-icon.png"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\img\\arrow.png",
+      "PackagePath": "staticwebassets\\img\\arrow.png"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\img\\check-hover.png",
+      "PackagePath": "staticwebassets\\img\\check-hover.png"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\img\\check.png",
+      "PackagePath": "staticwebassets\\img\\check.png"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\img\\close-hover.png",
+      "PackagePath": "staticwebassets\\img\\close-hover.png"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\img\\close.png",
+      "PackagePath": "staticwebassets\\img\\close.png"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\img\\cursor.png",
+      "PackagePath": "staticwebassets\\img\\cursor.png"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\img\\demo_01.jpg",
+      "PackagePath": "staticwebassets\\img\\demo_01.jpg"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\img\\error.gif",
+      "PackagePath": "staticwebassets\\img\\error.gif"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\img\\facebook-hover.png",
+      "PackagePath": "staticwebassets\\img\\facebook-hover.png"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\img\\facebook.png",
+      "PackagePath": "staticwebassets\\img\\facebook.png"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\img\\favicon.png",
+      "PackagePath": "staticwebassets\\img\\favicon.png"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\img\\flickr_01.jpg",
+      "PackagePath": "staticwebassets\\img\\flickr_01.jpg"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\img\\flickr_02.jpg",
+      "PackagePath": "staticwebassets\\img\\flickr_02.jpg"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\img\\flickr_03.jpg",
+      "PackagePath": "staticwebassets\\img\\flickr_03.jpg"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\img\\flickr_04.jpg",
+      "PackagePath": "staticwebassets\\img\\flickr_04.jpg"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\img\\flickr_05.jpg",
+      "PackagePath": "staticwebassets\\img\\flickr_05.jpg"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\img\\flickr_06.jpg",
+      "PackagePath": "staticwebassets\\img\\flickr_06.jpg"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\img\\flickr_07.jpg",
+      "PackagePath": "staticwebassets\\img\\flickr_07.jpg"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\img\\flickr_08.jpg",
+      "PackagePath": "staticwebassets\\img\\flickr_08.jpg"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\img\\google-hover.png",
+      "PackagePath": "staticwebassets\\img\\google-hover.png"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\img\\google.png",
+      "PackagePath": "staticwebassets\\img\\google.png"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\img\\in-hover.png",
+      "PackagePath": "staticwebassets\\img\\in-hover.png"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\img\\in.png",
+      "PackagePath": "staticwebassets\\img\\in.png"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\img\\intro-bg.jpg",
+      "PackagePath": "staticwebassets\\img\\intro-bg.jpg"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\img\\item-single.png",
+      "PackagePath": "staticwebassets\\img\\item-single.png"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\img\\market_01.png",
+      "PackagePath": "staticwebassets\\img\\market_01.png"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\img\\market_02.png",
+      "PackagePath": "staticwebassets\\img\\market_02.png"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\img\\market_03.png",
+      "PackagePath": "staticwebassets\\img\\market_03.png"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\img\\market_04.png",
+      "PackagePath": "staticwebassets\\img\\market_04.png"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\img\\market_05.png",
+      "PackagePath": "staticwebassets\\img\\market_05.png"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\img\\market_06.png",
+      "PackagePath": "staticwebassets\\img\\market_06.png"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\img\\market_alone.png",
+      "PackagePath": "staticwebassets\\img\\market_alone.png"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\img\\market_single_01.png",
+      "PackagePath": "staticwebassets\\img\\market_single_01.png"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\img\\nav.png",
+      "PackagePath": "staticwebassets\\img\\nav.png"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\img\\office.png",
+      "PackagePath": "staticwebassets\\img\\office.png"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\img\\payments.png",
+      "PackagePath": "staticwebassets\\img\\payments.png"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\img\\pixel.gif",
+      "PackagePath": "staticwebassets\\img\\pixel.gif"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\img\\portfolio_01.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio_01.jpg"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\img\\portfolio_02.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio_02.jpg"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\img\\portfolio_03.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio_03.jpg"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\img\\portfolio_04.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio_04.jpg"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\img\\portfolio_05.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio_05.jpg"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\img\\portfolio_06.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio_06.jpg"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\img\\portfolio_07.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio_07.jpg"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\img\\portfolio_08.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio_08.jpg"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\img\\portfolio_09.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio_09.jpg"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\img\\portfolio_10.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio_10.jpg"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\img\\recent_post_01.png",
+      "PackagePath": "staticwebassets\\img\\recent_post_01.png"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\img\\recent_post_02.png",
+      "PackagePath": "staticwebassets\\img\\recent_post_02.png"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\img\\remove.png",
+      "PackagePath": "staticwebassets\\img\\remove.png"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\img\\search.png",
+      "PackagePath": "staticwebassets\\img\\search.png"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\img\\slider_01.png",
+      "PackagePath": "staticwebassets\\img\\slider_01.png"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\img\\slider_02.png",
+      "PackagePath": "staticwebassets\\img\\slider_02.png"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\img\\sliderbg_01.png",
+      "PackagePath": "staticwebassets\\img\\sliderbg_01.png"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\img\\sliderbg_02.png",
+      "PackagePath": "staticwebassets\\img\\sliderbg_02.png"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\img\\slides_01.jpg",
+      "PackagePath": "staticwebassets\\img\\slides_01.jpg"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\img\\slides_02.jpg",
+      "PackagePath": "staticwebassets\\img\\slides_02.jpg"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\img\\slides_03.jpg",
+      "PackagePath": "staticwebassets\\img\\slides_03.jpg"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\img\\success.gif",
+      "PackagePath": "staticwebassets\\img\\success.gif"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\img\\support.png",
+      "PackagePath": "staticwebassets\\img\\support.png"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\img\\team_01.png",
+      "PackagePath": "staticwebassets\\img\\team_01.png"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\img\\team_02.png",
+      "PackagePath": "staticwebassets\\img\\team_02.png"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\img\\team_03.png",
+      "PackagePath": "staticwebassets\\img\\team_03.png"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\img\\team_04.png",
+      "PackagePath": "staticwebassets\\img\\team_04.png"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\img\\team_05.png",
+      "PackagePath": "staticwebassets\\img\\team_05.png"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\img\\team_06.png",
+      "PackagePath": "staticwebassets\\img\\team_06.png"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\img\\twitter-hover.png",
+      "PackagePath": "staticwebassets\\img\\twitter-hover.png"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\img\\twitter.png",
+      "PackagePath": "staticwebassets\\img\\twitter.png"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\img\\undo-hover.png",
+      "PackagePath": "staticwebassets\\img\\undo-hover.png"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\img\\undo.png",
+      "PackagePath": "staticwebassets\\img\\undo.png"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\img\\zoom-hover.png",
+      "PackagePath": "staticwebassets\\img\\zoom-hover.png"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\img\\zoom.png",
+      "PackagePath": "staticwebassets\\img\\zoom.png"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\js\\bbpress.css",
+      "PackagePath": "staticwebassets\\js\\bbpress.css"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\js\\colors\\asphalt.css",
+      "PackagePath": "staticwebassets\\js\\colors\\asphalt.css"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\js\\colors\\blue.css",
+      "PackagePath": "staticwebassets\\js\\colors\\blue.css"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\js\\colors\\brown.css",
+      "PackagePath": "staticwebassets\\js\\colors\\brown.css"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\js\\colors\\mustard.css",
+      "PackagePath": "staticwebassets\\js\\colors\\mustard.css"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\js\\colors\\pomegranate.css",
+      "PackagePath": "staticwebassets\\js\\colors\\pomegranate.css"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\js\\colors\\turquoise.css",
+      "PackagePath": "staticwebassets\\js\\colors\\turquoise.css"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\js\\colors\\yellow.css",
+      "PackagePath": "staticwebassets\\js\\colors\\yellow.css"
     },
     {
       "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\js\\style.css",
+      "PackagePath": "staticwebassets\\js\\style.css"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\lib\\animate-enhanced\\animate-enhanced.min.js",
+      "PackagePath": "staticwebassets\\lib\\animate-enhanced\\animate-enhanced.min.js"
+    },
+    {
       "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\lib\\bootstrap\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\lib\\bootstrap\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap.min.css"
     },
     {
       "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
@@ -301,6 +633,98 @@
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\scripts.js"
     },
     {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\lib\\bootstrap\\fonts\\glyphicons-halflings-regular.eot",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\fonts\\glyphicons-halflings-regular.eot"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\lib\\bootstrap\\fonts\\glyphicons-halflings-regular.svg",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\fonts\\glyphicons-halflings-regular.svg"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\lib\\bootstrap\\fonts\\glyphicons-halflings-regular.ttf",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\fonts\\glyphicons-halflings-regular.ttf"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\lib\\bootstrap\\fonts\\glyphicons-halflings-regular.woff",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\fonts\\glyphicons-halflings-regular.woff"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\lib\\bootstrap\\fonts\\glyphicons-halflings-regular.woff2",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\fonts\\glyphicons-halflings-regular.woff2"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\lib\\bootstrap\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\lib\\bootstrap\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\lib\\easypiechart\\easypiechart.min.js",
+      "PackagePath": "staticwebassets\\lib\\easypiechart\\easypiechart.min.js"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\lib\\font-awesome\\css\\font-awesome.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\font-awesome.css"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\lib\\font-awesome\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\lib\\font-awesome\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\lib\\font-awesome\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\lib\\font-awesome\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\lib\\font-awesome\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\lib\\font-awesome\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\lib\\font-awesome\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\lib\\hover\\hoverdir.js",
+      "PackagePath": "staticwebassets\\lib\\hover\\hoverdir.js"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\lib\\hover\\hoverex-all.css",
+      "PackagePath": "staticwebassets\\lib\\hover\\hoverex-all.css"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\lib\\hover\\hoverex.min.js",
+      "PackagePath": "staticwebassets\\lib\\hover\\hoverex.min.js"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\lib\\isotope\\isotope.min.js",
+      "PackagePath": "staticwebassets\\lib\\isotope\\isotope.min.js"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\lib\\jetmenu\\jetmenu.css",
+      "PackagePath": "staticwebassets\\lib\\jetmenu\\jetmenu.css"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\lib\\jetmenu\\jetmenu.js",
+      "PackagePath": "staticwebassets\\lib\\jetmenu\\jetmenu.js"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\lib\\jigowatt\\jigowatt.js",
+      "PackagePath": "staticwebassets\\lib\\jigowatt\\jigowatt.js"
+    },
+    {
       "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
@@ -347,6 +771,190 @@
     {
       "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\lib\\jquery\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\jquery.js"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\lib\\jquery\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\lib\\owl-carousel\\owl-carousel.css",
+      "PackagePath": "staticwebassets\\lib\\owl-carousel\\owl-carousel.css"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\lib\\owl-carousel\\owl-carousel.js",
+      "PackagePath": "staticwebassets\\lib\\owl-carousel\\owl-carousel.js"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\lib\\php-mail-form\\validate.js",
+      "PackagePath": "staticwebassets\\lib\\php-mail-form\\validate.js"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\lib\\prettyphoto\\css\\prettyphoto.css",
+      "PackagePath": "staticwebassets\\lib\\prettyphoto\\css\\prettyphoto.css"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\lib\\prettyphoto\\images\\prettyPhoto\\dark_rounded\\btnNext.png",
+      "PackagePath": "staticwebassets\\lib\\prettyphoto\\images\\prettyPhoto\\dark_rounded\\btnNext.png"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\lib\\prettyphoto\\images\\prettyPhoto\\dark_rounded\\btnPrevious.png",
+      "PackagePath": "staticwebassets\\lib\\prettyphoto\\images\\prettyPhoto\\dark_rounded\\btnPrevious.png"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\lib\\prettyphoto\\images\\prettyPhoto\\dark_rounded\\contentPattern.png",
+      "PackagePath": "staticwebassets\\lib\\prettyphoto\\images\\prettyPhoto\\dark_rounded\\contentPattern.png"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\lib\\prettyphoto\\images\\prettyPhoto\\dark_rounded\\default_thumbnail.gif",
+      "PackagePath": "staticwebassets\\lib\\prettyphoto\\images\\prettyPhoto\\dark_rounded\\default_thumbnail.gif"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\lib\\prettyphoto\\images\\prettyPhoto\\dark_rounded\\loader.gif",
+      "PackagePath": "staticwebassets\\lib\\prettyphoto\\images\\prettyPhoto\\dark_rounded\\loader.gif"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\lib\\prettyphoto\\images\\prettyPhoto\\dark_rounded\\sprite.png",
+      "PackagePath": "staticwebassets\\lib\\prettyphoto\\images\\prettyPhoto\\dark_rounded\\sprite.png"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\lib\\prettyphoto\\images\\prettyPhoto\\dark_square\\btnNext.png",
+      "PackagePath": "staticwebassets\\lib\\prettyphoto\\images\\prettyPhoto\\dark_square\\btnNext.png"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\lib\\prettyphoto\\images\\prettyPhoto\\dark_square\\btnPrevious.png",
+      "PackagePath": "staticwebassets\\lib\\prettyphoto\\images\\prettyPhoto\\dark_square\\btnPrevious.png"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\lib\\prettyphoto\\images\\prettyPhoto\\dark_square\\contentPattern.png",
+      "PackagePath": "staticwebassets\\lib\\prettyphoto\\images\\prettyPhoto\\dark_square\\contentPattern.png"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\lib\\prettyphoto\\images\\prettyPhoto\\dark_square\\default_thumbnail.gif",
+      "PackagePath": "staticwebassets\\lib\\prettyphoto\\images\\prettyPhoto\\dark_square\\default_thumbnail.gif"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\lib\\prettyphoto\\images\\prettyPhoto\\dark_square\\loader.gif",
+      "PackagePath": "staticwebassets\\lib\\prettyphoto\\images\\prettyPhoto\\dark_square\\loader.gif"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\lib\\prettyphoto\\images\\prettyPhoto\\dark_square\\sprite.png",
+      "PackagePath": "staticwebassets\\lib\\prettyphoto\\images\\prettyPhoto\\dark_square\\sprite.png"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\lib\\prettyphoto\\images\\prettyPhoto\\default\\default_thumb.png",
+      "PackagePath": "staticwebassets\\lib\\prettyphoto\\images\\prettyPhoto\\default\\default_thumb.png"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\lib\\prettyphoto\\images\\prettyPhoto\\default\\loader.gif",
+      "PackagePath": "staticwebassets\\lib\\prettyphoto\\images\\prettyPhoto\\default\\loader.gif"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\lib\\prettyphoto\\images\\prettyPhoto\\default\\sprite.png",
+      "PackagePath": "staticwebassets\\lib\\prettyphoto\\images\\prettyPhoto\\default\\sprite.png"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\lib\\prettyphoto\\images\\prettyPhoto\\default\\sprite_next.png",
+      "PackagePath": "staticwebassets\\lib\\prettyphoto\\images\\prettyPhoto\\default\\sprite_next.png"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\lib\\prettyphoto\\images\\prettyPhoto\\default\\sprite_prev.png",
+      "PackagePath": "staticwebassets\\lib\\prettyphoto\\images\\prettyPhoto\\default\\sprite_prev.png"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\lib\\prettyphoto\\images\\prettyPhoto\\default\\sprite_x.png",
+      "PackagePath": "staticwebassets\\lib\\prettyphoto\\images\\prettyPhoto\\default\\sprite_x.png"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\lib\\prettyphoto\\images\\prettyPhoto\\default\\sprite_y.png",
+      "PackagePath": "staticwebassets\\lib\\prettyphoto\\images\\prettyPhoto\\default\\sprite_y.png"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\lib\\prettyphoto\\images\\prettyPhoto\\facebook\\btnNext.png",
+      "PackagePath": "staticwebassets\\lib\\prettyphoto\\images\\prettyPhoto\\facebook\\btnNext.png"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\lib\\prettyphoto\\images\\prettyPhoto\\facebook\\btnPrevious.png",
+      "PackagePath": "staticwebassets\\lib\\prettyphoto\\images\\prettyPhoto\\facebook\\btnPrevious.png"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\lib\\prettyphoto\\images\\prettyPhoto\\facebook\\contentPatternBottom.png",
+      "PackagePath": "staticwebassets\\lib\\prettyphoto\\images\\prettyPhoto\\facebook\\contentPatternBottom.png"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\lib\\prettyphoto\\images\\prettyPhoto\\facebook\\contentPatternLeft.png",
+      "PackagePath": "staticwebassets\\lib\\prettyphoto\\images\\prettyPhoto\\facebook\\contentPatternLeft.png"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\lib\\prettyphoto\\images\\prettyPhoto\\facebook\\contentPatternRight.png",
+      "PackagePath": "staticwebassets\\lib\\prettyphoto\\images\\prettyPhoto\\facebook\\contentPatternRight.png"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\lib\\prettyphoto\\images\\prettyPhoto\\facebook\\contentPatternTop.png",
+      "PackagePath": "staticwebassets\\lib\\prettyphoto\\images\\prettyPhoto\\facebook\\contentPatternTop.png"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\lib\\prettyphoto\\images\\prettyPhoto\\facebook\\default_thumbnail.gif",
+      "PackagePath": "staticwebassets\\lib\\prettyphoto\\images\\prettyPhoto\\facebook\\default_thumbnail.gif"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\lib\\prettyphoto\\images\\prettyPhoto\\facebook\\loader.gif",
+      "PackagePath": "staticwebassets\\lib\\prettyphoto\\images\\prettyPhoto\\facebook\\loader.gif"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\lib\\prettyphoto\\images\\prettyPhoto\\facebook\\sprite.png",
+      "PackagePath": "staticwebassets\\lib\\prettyphoto\\images\\prettyPhoto\\facebook\\sprite.png"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\lib\\prettyphoto\\images\\prettyPhoto\\light_rounded\\btnNext.png",
+      "PackagePath": "staticwebassets\\lib\\prettyphoto\\images\\prettyPhoto\\light_rounded\\btnNext.png"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\lib\\prettyphoto\\images\\prettyPhoto\\light_rounded\\btnPrevious.png",
+      "PackagePath": "staticwebassets\\lib\\prettyphoto\\images\\prettyPhoto\\light_rounded\\btnPrevious.png"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\lib\\prettyphoto\\images\\prettyPhoto\\light_rounded\\default_thumbnail.gif",
+      "PackagePath": "staticwebassets\\lib\\prettyphoto\\images\\prettyPhoto\\light_rounded\\default_thumbnail.gif"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\lib\\prettyphoto\\images\\prettyPhoto\\light_rounded\\loader.gif",
+      "PackagePath": "staticwebassets\\lib\\prettyphoto\\images\\prettyPhoto\\light_rounded\\loader.gif"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\lib\\prettyphoto\\images\\prettyPhoto\\light_rounded\\sprite.png",
+      "PackagePath": "staticwebassets\\lib\\prettyphoto\\images\\prettyPhoto\\light_rounded\\sprite.png"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\lib\\prettyphoto\\images\\prettyPhoto\\light_square\\btnNext.png",
+      "PackagePath": "staticwebassets\\lib\\prettyphoto\\images\\prettyPhoto\\light_square\\btnNext.png"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\lib\\prettyphoto\\images\\prettyPhoto\\light_square\\btnPrevious.png",
+      "PackagePath": "staticwebassets\\lib\\prettyphoto\\images\\prettyPhoto\\light_square\\btnPrevious.png"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\lib\\prettyphoto\\images\\prettyPhoto\\light_square\\default_thumbnail.gif",
+      "PackagePath": "staticwebassets\\lib\\prettyphoto\\images\\prettyPhoto\\light_square\\default_thumbnail.gif"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\lib\\prettyphoto\\images\\prettyPhoto\\light_square\\loader.gif",
+      "PackagePath": "staticwebassets\\lib\\prettyphoto\\images\\prettyPhoto\\light_square\\loader.gif"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\lib\\prettyphoto\\images\\prettyPhoto\\light_square\\sprite.png",
+      "PackagePath": "staticwebassets\\lib\\prettyphoto\\images\\prettyPhoto\\light_square\\sprite.png"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\lib\\prettyphoto\\js\\prettyphoto.js",
+      "PackagePath": "staticwebassets\\lib\\prettyphoto\\js\\prettyphoto.js"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\lib\\unveil-effects\\unveil-effects.js",
+      "PackagePath": "staticwebassets\\lib\\unveil-effects\\unveil-effects.js"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.webgis.props",
