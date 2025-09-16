@@ -1,0 +1,28 @@
+@model IEnumerable<webgis.Models.Zone>
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h2>Liste des zones</h2>
+<div class="container" style="max-width: 600px; margin-top: 20px;">
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>Zone</th>
+            <th>Règlement</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var zone in Model)
+        {
+            <tr>
+                <td>@zone.Nom</td>
+                <td>
+                    <a href="~/pdfs/ZoneA.pdf" target="_blank" class="btn btn-primary">
+                        Voir PDF
+                    </a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+</div>

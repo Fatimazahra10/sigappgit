@@ -1,0 +1,82 @@
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section Scripts {
+<link rel="stylesheet" href="https://js.arcgis.com/4.26/esri/themes/light/main.css" />
+<script src="https://js.arcgis.com/4.26/"></script>
+<script >
+
+require (["esri/config", "esri/Map", "esri/views/MapView", "esri/layers/FeatureLayer", "esri/layers/WMSLayer",  "esri/widgets/Legend",
+"esri/widgets/BasemapToggle"],
+function(esriConfig, Map, MapView, FeatureLayer, WMSLayer, Legend, BasemapToggle){
+esriConfig.apiKey="";
+const wmsUrl="http://172.171.244.99/qgisserver/cgi-bin/qgis_mapserv.fcgi?MAP=/home/azureuser/qgis/data/AinChock3.qgs&SERVICE=WMS&VERSION=1.3.0&REQUEST=GetCapabilities";
+const wmsLayer = new WMSLayer({
+url: wmsUrl,
+sublayers: [ 
+{ name: "Secteur" },
+{ name: "Equipements" },
+{ name: "Emprise" },
+{ name: "Voirie" },
+{ name: "FrontBati" },
+{ name: "Axe" }
+]
+});
+const map=new Map({
+basemap: "streets-vector",
+layers: [wmsLayer]
+});
+const view=new MapView({
+map: map,
+center: [-7.62, 33.525], // Longitude, latitude
+zoom: 12, // Zoom level
+container: "mapDiv"
+});
+
+    // Gestion des checkboxes
+  document.querySelectorAll("#customLegend input[type=checkbox]").forEach(cb => {
+    cb.addEventListener("change", function() {
+      const sublayer = wmsLayer.sublayers.find(s => s.name === this.value);
+      if (sublayer) {
+        sublayer.visible = this.checked; // active/désactive la sous-couche
+      }
+    });
+  });
+
+  // Widget BasemapToggle
+  const basemapToggle = new BasemapToggle({
+    view: view,
+    nextBasemap: "satellite" // la carte alternative
+  });
+
+  view.ui.add(basemapToggle, "bottom-left");
+
+});
+</script>
+
+}
+
+
+<h2>Liste des secteurs</h2>
+
+<div class="container">
+<!-- Carte (au-dessus du tableau) -->
+<div id="mapDiv" style="height: 500px; width: 100%; position: relative;">
+<div id="customLegend" 
+       style="position:absolute; top:10px; right:10px; background:white;
+              padding:10px; border-radius:8px; box-shadow:0 2px 6px rgba(0,0,0,0.3);">
+    <h5>Légende du PA</h5>
+    <label><input type="checkbox" value="Secteur" checked> Secteur</label><br>
+    <label><input type="checkbox" value="Equipements" checked> Equipements</label><br>
+    <label><input type="checkbox" value="Emprise" checked> Emprise</label><br>
+    <label><input type="checkbox" value="Voirie" checked> Voirie</label><br>
+    <label><input type="checkbox" value="FrontBati" checked> FrontBâti</label><br>
+    <label><input type="checkbox" value="Axe" checked> Axe</label>
+  </div>
+</div>
+
+
+
+
+</div>

@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>MaxiBiz Bootstrap Business Template</title>
+  <title>UrbanGIS</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="" name="keywords">
   <meta content="" name="description">
@@ -59,7 +59,7 @@
         <div class="col-lg-3 col-md-3 col-sm-12 title-area">
           <div class="site-title" id="title">
             <a href="index.html" title="">
-              <h4>Geo<span>Portail</span></h4>
+              <h4>Urban<span>GIS</span></h4>
             </a>
           </div>
         </div>
@@ -68,45 +68,38 @@
           <div id="nav" class="right">
             <div class="container clearfix">
               <ul id="jetmenu" class="jetmenu blue">
-                <li class="nav-item">
-                    <a class="nav-link" asp-controller="Home" asp-action="Index">Accueil</a>
+                <li><a asp-controller="Home" asp-action="Index">Accueil</a></li>
+
+                <li><a>Plan d'Aménagement</a>
+                    <ul class="dropdown">
+                        <li><a asp-controller="PA" asp-action="PA">Carte</a></li>
+                        <li><a asp-controller="PA" asp-action="Reglements">Réglements</a></li>
+                    </ul>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" asp-controller="Secteur" asp-action="test">Secteur</a>
+
+                <li><a asp-controller="Home" asp-action="CTL">Comité Locale</a></li>
+                <li><a asp-controller="Home" asp-action="EP">Enquête Publique</a></li>
+                <li><a asp-controller="Secteur" asp-action="test">Secteur</a></li>
+
+                <li><a>Pages</a>
+                    <ul class="dropdown">
+                        <li><a asp-controller="Home" asp-action="About">About Us</a></li>
+                        <li><a asp-controller="Home" asp-action="Services">Services</a></li>
+                    </ul>
                 </li>
-                <li><a href="#">Pages</a>
-                  <ul class="dropdown">
-                    <li><a href="about.html">About Us</a></li>
-                    <li><a href="services.html">Services</a></li>
-                  </ul>
+
+                <li><a>Shop</a>
+                    <ul class="dropdown">
+                        <li><a asp-controller="Shop" asp-action="Products">Products Page</a></li>
+                        <li><a asp-controller="Shop" asp-action="ProductDetails">Single Product</a></li>
+                        <li><a asp-controller="Shop" asp-action="Checkout">Checkout</a></li>
+                        <li><a asp-controller="Shop" asp-action="Account">Account Page</a></li>
+                        <li><a asp-controller="Shop" asp-action="Support">Support Center</a></li>
+                    </ul>
                 </li>
-                <li><a href="#">Shop</a>
-                  <ul class="dropdown">
-                    <li><a href="digital-download.html">Products Page</a></li>
-                    <li><a href="single-product.html">Single Product</a></li>
-                    <li><a href="checkout.html">Checkout</a></li>
-                    <li><a href="account.html">Account Page</a></li>
-                    <li><a href="support.html">Support Center</a></li>
-                  </ul>
-                </li>
-                <li><a href="#">Portfolio</a>
-                  <ul class="dropdown">
-                    <li><a href="single-portfolio-1.html">Single Portfolio 1</a></li>
-                    <li><a href="single-portfolio-2.html">Single Portfolio 2</a></li>
-                    <li><a href="portfolio-2.html">Portfolio (2 Columns)</a></li>
-                    <li><a href="portfolio-3.html">Portfolio (3 Columns)</a></li>
-                    <li><a href="gallery-portfolio.html">Gallery</a></li>
-                    <li><a href="masonry-grid-portfolio.html">Masonry Grid Style</a></li>
-                  </ul>
-                </li>
-                <li><a href="#">Blog</a>
-                  <ul class="dropdown">
-                    <li><a href="blog-left-sidebar.html">Blog Left Sidebar</a></li>
-                    <li><a href="blog-right-sidebar.html">Blog Right Sidebar</a></li>
-                    <li><a href="single-with-sidebar.html">Single with Sidebar</a></li>
-                  </ul>
-                </li>
-              </ul>
+            </ul>
+
+
             </div>
           </div>
           <!-- nav -->
@@ -126,7 +119,7 @@
     <div class="copyrights">
       <div class="container">
         <div class="col-lg-6 col-md-6 col-sm-12 columns footer-left">
-          <p>Copyright © 2014 - All rights reserved.</p>
+          <p>Copyright © 2025 - All rights reserved.</p>
           <div class="credits">
             <!--
               You are NOT allowed to delete the credit link to TemplateMag with free version.
@@ -134,7 +127,7 @@
               Buy the pro version with working PHP/AJAX contact form: https://templatemag.com/maxibiz-bootstrap-business-template/
               Licensing information: https://templatemag.com/license/
             -->
-            Created with MaxiBiz template by <a href="https://templatemag.com/">TemplateMag</a>
+            Created by F. Barramou 
           </div>
         </div>
         <!-- end widget -->
@@ -175,6 +168,14 @@
 
   <!-- Template Main Javascript File -->
   <script src="~/js/main.js"></script>
-
+  <script>
+        $(document).ready(function() {
+            $('#jetmenu').jetmenu({
+                indicator: true,          // petit triangle pour sous-menu
+                submenuIndicator: true    // active l'affichage du sous-menu au survol
+            });
+        });
+    </script>
+ @RenderSection("Scripts", required: false)
 </body>
 </html>

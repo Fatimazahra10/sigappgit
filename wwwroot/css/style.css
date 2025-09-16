@@ -471,10 +471,26 @@ body.nobg .section1 {
 }
 
 #intro {
-  background: url(../img/intro-bg.jpg) center center no-repeat fixed;
+  background: url(../img/casa2.jpg) center center no-repeat fixed;
   background-size: cover;
   padding: 80px 0;
   text-align: center;
+}
+
+.halo-white {
+  color: #fff; /* texte blanc */
+  text-shadow:
+    0 0 6px rgba(0,0,0,0.6),   /* halo principal */
+    0 0 12px rgba(0,0,0,0.4),  /* halo élargi */
+    0 0 20px rgba(0,0,0,0.2);  /* halo diffus */
+}
+
+.halo-paragraph {
+  color: #fff;
+  text-shadow:
+    0 0 6px rgba(0, 0, 0, 0.905),   /* halo principal */
+    0 0 20px rgba(0, 0, 0, 0.803),  /* halo élargi */
+    0 0 30px rgba(0, 0, 0, 0.549);  /* halo diffus */
 }
 
 #intro h1 {

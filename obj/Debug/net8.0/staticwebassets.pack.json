@@ -109,6 +109,10 @@
       "PackagePath": "staticwebassets\\img\\arrow.png"
     },
     {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\img\\casa2.jpg",
+      "PackagePath": "staticwebassets\\img\\casa2.jpg"
+    },
+    {
       "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\img\\check-hover.png",
       "PackagePath": "staticwebassets\\img\\check-hover.png"
     },
@@ -955,6 +959,58 @@
     {
       "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\lib\\unveil-effects\\unveil-effects.js",
       "PackagePath": "staticwebassets\\lib\\unveil-effects\\unveil-effects.js"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\pdfs\\EquipementsAINCHOCK",
+      "PackagePath": "staticwebassets\\pdfs"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\pdfs\\PATRIMOINE",
+      "PackagePath": "staticwebassets\\pdfs"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\pdfs\\PlancheEnsemble",
+      "PackagePath": "staticwebassets\\pdfs"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\pdfs\\ZoneA",
+      "PackagePath": "staticwebassets\\pdfs"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\pdfs\\ZoneB",
+      "PackagePath": "staticwebassets\\pdfs"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\pdfs\\ZoneC",
+      "PackagePath": "staticwebassets\\pdfs"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\pdfs\\ZoneD",
+      "PackagePath": "staticwebassets\\pdfs"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\pdfs\\ZoneE",
+      "PackagePath": "staticwebassets\\pdfs"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\pdfs\\ZoneI",
+      "PackagePath": "staticwebassets\\pdfs"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\pdfs\\ZonePB",
+      "PackagePath": "staticwebassets\\pdfs"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\pdfs\\ZonePU",
+      "PackagePath": "staticwebassets\\pdfs"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\pdfs\\ZoneS",
+      "PackagePath": "staticwebassets\\pdfs"
+    },
+    {
+      "Id": "D:\\EMC2\\Projet\\webgis\\wwwroot\\pdfs\\ZoneZR",
+      "PackagePath": "staticwebassets\\pdfs"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.webgis.props",
