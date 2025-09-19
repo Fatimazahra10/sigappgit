@@ -27,6 +27,23 @@
   <!-- Main Stylesheet File -->
   <link href="~/css/style.css" rel="stylesheet">
   <link rel="stylesheet" href="~/css/colors/blue.css">
+  <a class="text-white inscription-link" asp-controller="Account" asp-action="Register">
+    Inscription
+</a>
+
+<style>
+    /* Toujours blanc pour le lien inscription */
+    .inscription-link {
+        color: #fff !important;
+    }
+
+    /* Optionnel : au survol garder blanc aussi */
+    .inscription-link:hover {
+        color: #fff !important;
+    }
+</style>
+
+
 
   <!-- =======================================================
     Template Name: MaxiBiz
@@ -37,21 +54,44 @@
 </head>
 
 <body>
-  <div class="topbar clearfix">
+
+ <div class="topbar clearfix">
     <div class="container">
-      <div class="col-lg-12 text-right">
-        <div class="social_buttons">
-          <a href="#" data-toggle="tooltip" data-placement="bottom" title="Facebook"><i class="fa fa-facebook"></i></a>
-          <a href="#" data-toggle="tooltip" data-placement="bottom" title="Twitter"><i class="fa fa-twitter"></i></a>
-          <a href="#" data-toggle="tooltip" data-placement="bottom" title="Google+"><i class="fa fa-google-plus"></i></a>
-          <a href="#" data-toggle="tooltip" data-placement="bottom" title="Dribbble"><i class="fa fa-dribbble"></i></a>
-          <a href="#" data-toggle="tooltip" data-placement="bottom" title="RSS"><i class="fa fa-rss"></i></a>
+        <div class="row">
+            <div class="col-lg-12 text-right">
+
+                @if (User.Identity.IsAuthenticated)
+                {
+                    <!-- Nom utilisateur -->
+                    <span class="me-3">
+                        <i class="fa fa-user"></i> @User.Identity.Name
+                    </span>
+
+                    <!-- Lien admin si rôle -->
+                    @if (User.IsInRole("Admin"))
+                    {
+                        <a class="text-white me-3" href="/Admin">Admin</a>
+                    }
+
+                    <!-- Déconnexion -->
+                    <form method="post" asp-controller="Account" asp-action="Logout" >
+                        <button type="submit" class="btn btn-sm btn-outline-light text-white me-3">
+                            Déconnexion
+                        </button>
+                    </form>
+                }
+                else
+                {
+                    <!-- Connexion / Inscription -->
+                    <a class="text-white me-3" asp-controller="Account" asp-action="Login">Connexion</a>
+                    <a class="text-white" asp-controller="Account" asp-action="Register">Inscription</a>
+                }
+
+            </div>
         </div>
-      </div>
     </div>
-    <!-- end container -->
-  </div>
-  <!-- end topbar -->
+</div>
+
 
   <header class="header">
     <div class="container">
@@ -79,26 +119,13 @@
 
                 <li><a asp-controller="Home" asp-action="CTL">Comité Locale</a></li>
                 <li><a asp-controller="Home" asp-action="EP">Enquête Publique</a></li>
-                <li><a asp-controller="Secteur" asp-action="test">Secteur</a></li>
+                <li><a asp-controller="Home" asp-action="About">Contact</a></li>
 
-                <li><a>Pages</a>
-                    <ul class="dropdown">
-                        <li><a asp-controller="Home" asp-action="About">About Us</a></li>
-                        <li><a asp-controller="Home" asp-action="Services">Services</a></li>
-                    </ul>
-                </li>
+          
 
-                <li><a>Shop</a>
-                    <ul class="dropdown">
-                        <li><a asp-controller="Shop" asp-action="Products">Products Page</a></li>
-                        <li><a asp-controller="Shop" asp-action="ProductDetails">Single Product</a></li>
-                        <li><a asp-controller="Shop" asp-action="Checkout">Checkout</a></li>
-                        <li><a asp-controller="Shop" asp-action="Account">Account Page</a></li>
-                        <li><a asp-controller="Shop" asp-action="Support">Support Center</a></li>
-                    </ul>
-                </li>
+              
             </ul>
-
+            
 
             </div>
           </div>

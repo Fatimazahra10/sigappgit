@@ -10,10 +10,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap5")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("webgis")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fb40a6e41ce88f7d5cfddf5850b8a0e384ba61d5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+05f71bf7c1e0fa4ff830c322f4b700e30442d950")]
 [assembly: System.Reflection.AssemblyProductAttribute("webgis")]
 [assembly: System.Reflection.AssemblyTitleAttribute("webgis")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
